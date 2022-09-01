@@ -81,6 +81,10 @@
 }
 }
 @media screen and (min-width:1200px){
+    .container {
+        width: 1170px; 
+        margin: 0 auto;
+    }
     .paragraph{
     width: 100%;
     justify-content: space-around;
