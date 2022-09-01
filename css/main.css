@@ -646,8 +646,9 @@ ul {
 }
 
 .paragraph {
-  width: 450px;
+  width: 100%;
   list-style: none;
+  margin: auto;
 }
 
 .icon::before {
@@ -682,13 +683,12 @@ ul {
     flex-wrap: wrap;
     width: 100%;
     list-style: none;
+    justify-content: space-around;
   }
   .info_team {
     text-align: start;
   }
   .style-paragraph {
-    margin: auto;
-    margin-left: 0px;
     width: 354px;
   }
   .style-paragraph:nth-child(2n+2) {
@@ -698,7 +698,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .paragraph {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .style-paragraph {
     width: 270px;

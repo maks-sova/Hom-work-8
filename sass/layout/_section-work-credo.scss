@@ -26,8 +26,9 @@
 }
 }
 .paragraph{
-    width: 450px;
+    width: 100%;
     list-style: none;
+    margin: auto;
     
    
 }
@@ -67,13 +68,12 @@
     flex-wrap: wrap;
     width: 100%;
     list-style: none;
+    justify-content: space-around;
     }
     .info_team{
         text-align: start;
     }
     .style-paragraph{
-        margin:auto;
-        margin-left: 0px;
         width: 354px;
         &:nth-child(2n+2){
             margin-right: 0;
@@ -83,11 +83,13 @@
 @media screen and (min-width:1200px){
     .paragraph{
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+   
     }
     .style-paragraph{
         width: 270px;
         margin: 0px;
+        
       
     }
     }
