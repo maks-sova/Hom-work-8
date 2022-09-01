@@ -689,7 +689,7 @@ ul {
     text-align: start;
   }
   .style-paragraph {
-    width: 500px;
+    width: 354px;
   }
   .style-paragraph:nth-child(2n+2) {
     margin-right: 0;
@@ -701,7 +701,7 @@ ul {
     justify-content: space-around;
   }
   .style-paragraph {
-    width: 370px;
+    width: 270px;
     margin: 0px;
   }
 }
