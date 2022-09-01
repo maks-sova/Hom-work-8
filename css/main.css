@@ -641,7 +641,6 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 30px;
 }
 
 .style-paragraph:last-child {
@@ -682,13 +681,16 @@ ul {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 738px;
+    width: 768px;
     margin: 0 auto;
   }
   .paragraph {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+    gap: 30px;
+  }
+  .paragraph:not(:last-child) {
+    margin-right: 0;
   }
   .info_team {
     text-align: start;
@@ -696,14 +698,15 @@ ul {
   .style-paragraph {
     width: 334px;
     margin-right: 30px;
+    margin: 0 auto;
   }
-  .style-paragraph:nth-child(2n+2) {
+  .style-paragraph:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
   }
   .paragraph {
