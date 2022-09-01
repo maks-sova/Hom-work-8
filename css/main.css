@@ -542,7 +542,7 @@ ul {
   padding: 118px 0;
   text-align: center;
   background-color: #C4C4C4;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/foto-mobile/Header\ img\ \(1\)\ \(1\).jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto-mobile/Header\ img\ \(1\)\ \(1\).jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -552,7 +552,7 @@ ul {
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 768px), screen and (min-resolution: 192dpi) and (max-width: 768px), screen and (min-resolution: 2dppx) and (max-width: 768px) {
   .style__section {
-    background-image: url(../../images/foto-mobile/Header\ img\ \(2\).jpg);
+    background-image: url(../images/foto-mobile/Header\ img\ \(2\).jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -560,12 +560,12 @@ ul {
     width: 480px;
   }
   .style__section {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/foto-planshet/Header\ img.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto-planshet/Header\ img.png);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .style__section {
-    background-image: url(../../images/foto-planshet/Header\ img\ \(1\).png);
+    background-image: url(../images/foto-planshet/Header\ img\ \(1\).png);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -581,12 +581,12 @@ ul {
   .style__section {
     padding: 200px 0;
     height: 600px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/foto-distpo/Img-1.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto-distpo/Img-1.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .style__section {
-    background-image: url(../../images/foto-distpo/2x/Img.png);
+    background-image: url(../images/foto-distpo/2x/Img.png);
   }
 }
 /*Кнопка*/
