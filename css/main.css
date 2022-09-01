@@ -681,7 +681,8 @@ ul {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 968px;
+    width: 768px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
