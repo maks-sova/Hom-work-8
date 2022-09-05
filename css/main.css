@@ -304,7 +304,7 @@ ul {
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 758px) {
   .menu-mobile-open {
     background-color: transparent;
     border: none;
@@ -688,6 +688,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
   }
   .paragraph:not(:last-child) {
     margin-right: 0;
@@ -697,8 +698,6 @@ ul {
   }
   .style-paragraph {
     width: 334px;
-    margin-right: 30px;
-    margin: 0 auto;
   }
   .style-paragraph:last-child {
     margin-right: 0;
@@ -717,6 +716,18 @@ ul {
     margin: 0px;
   }
 }
+.work_team {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
 /*чем занимаемся */
 img {
   display: block;
@@ -772,6 +783,7 @@ img {
   gap: 10px;
   align-items: center;
   margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .tttt {
@@ -797,15 +809,7 @@ img {
 }
 
 .info-team {
-  display: flex;
   list-style: none;
-}
-
-.team-id {
-  margin-right: 30px;
-}
-.team-id:last-child {
-  margin-right: 0;
 }
 
 .style-id {
