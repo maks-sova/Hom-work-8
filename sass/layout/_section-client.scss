@@ -9,12 +9,13 @@
 }
 .client-korop{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 30px;
-}
+    flex-wrap: wrap;
+    
+        }
+
 .client-info{
-    width: 170px;
+    width: 210px;
     height: 92px;
     list-style: none;
     &:last-child{
@@ -24,7 +25,7 @@
  }
 .client-link{
     display: flex;
-    width: 170px;
+    width: 210px;
     height: 92px;
     align-items: center;
     fill: #AFB1B8;
