@@ -643,7 +643,11 @@ ul {
   color: #757575;
 }
 
+.style-paragraph {
+  margin-bottom: 30px;
+}
 .style-paragraph:last-child {
+  margin-bottom: 0;
   margin-left: 0;
 }
 
@@ -809,7 +813,9 @@ img {
 }
 
 .info-team {
+  width: 100%;
   list-style: none;
+  margin: auto;
 }
 
 .style-id {
@@ -847,6 +853,7 @@ img {
 }
 
 .client-info {
+  width: 100%;
   width: 210px;
   height: 92px;
   list-style: none;
