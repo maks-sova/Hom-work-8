@@ -20,18 +20,21 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin: 0;
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .container .container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container .container {
     width: 768px;
-    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .container .container {
     width: 1200px;
-    margin: 0 auto;
   }
 }
 
@@ -846,24 +849,25 @@ img {
 }
 
 .client-korop {
+  list-style: none;
   display: flex;
-  gap: 30px;
   flex-wrap: wrap;
+  margin: -15px;
 }
 
 .client-info {
   width: 100%;
-  width: 210px;
-  height: 92px;
-  list-style: none;
-}
-.client-info:last-child {
-  margin-right: 0;
+  margin: 15px;
 }
 
+@media screen and (max-width: 768px) {
+  .client-info {
+    flex-basis: calc((100% - 60px) / 2);
+  }
+}
 .client-link {
   display: flex;
-  width: 210px;
+  width: 100%;
   height: 92px;
   align-items: center;
   fill: #AFB1B8;
