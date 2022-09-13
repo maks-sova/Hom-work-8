@@ -1,19 +1,21 @@
 
 /*Подвал*/
 .container-web__styly-ly{
+    display: flex;
     margin-bottom: 10px;
-    margin-right: 70px;
+    // margin-right: 70px;
     list-style: none;
+    justify-content: center;
  }
  .styly-ly:last-child {
      margin-bottom: 0;
  }
  .container-web__webStudio_2{
-     display: block;
+     display: flex;
      margin-bottom: 20px;
      @include name('Raleway',normal ,700 ,26px ,1.2, 0.03em );
     
-
+     justify-content: center;
       color: #2196F3;
   }
   .container-web{
@@ -55,7 +57,7 @@
   }
  /*Подвал дополнительное*/
  .container__footer{
-     display: flex;
+    //  display: flex;
     text-align: baseline;
  
  }
@@ -75,6 +77,8 @@
      display: flex;
      gap: 10px;
       list-style: none;
+      justify-content: center;
+      margin-bottom: 60px;
       
   }
   .footer-links__tttts{
@@ -102,6 +106,7 @@
  
  
  .p-link{
+    display: flex;
     @include name('Roboto',normal ,700 ,14px ,1.14, 0.03em );
     
     
@@ -119,13 +124,14 @@
      text-transform: uppercase;
  
      color: #FFFFFF;
-     margin-top: 14px;
+     
+     justify-content: center;
  }
  .modal__mailing-lists{
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 700;
-     width: 358px;
+     width: 100%;
      height: 50px;
      margin-bottom: 20px;
      justify-content: center; 
@@ -145,6 +151,7 @@
  }
 
  .modal-mailing-button{
+    display: flex;
     @include name('Roboto',normal ,700 ,16px ,1.87, 0.06em );
     
 
@@ -170,20 +177,21 @@
 
  .svg-mailing{
      position: absolute;
-     align-items: center;
-     justify-content: center;
+    
      top: 50%;
-     right: 28px;
+     right: 33%;
      transform: translate(0,-50%);
     
  }
- .footer__links{
- margin-right: 93px;
+//  .footer__links{
+//  margin-right: 93px;
  
- }
+//  }
 
  .modal__mailing-span{
      position: relative;
+     display: flex;
+     justify-content: center;
     
  }
  .modal-mailing-lists::placeholder{
@@ -193,3 +201,13 @@
      align-items: center;
      color: rgba(255, 255, 255, 0.6);
  }
+@media screen and(max-width: 768px){
+.container-web {
+        width: 100%;
+}
+}
+  .footer__ul-link{
+margin-bottom: 60px;
+  }
+
+    
