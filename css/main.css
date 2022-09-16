@@ -1235,13 +1235,13 @@ img {
 }
 
 .container__studio-work {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .container__team-ids {
-  margin-right: 30px;
+  width: 100%;
   margin-bottom: 30px;
   list-style: none;
 }
@@ -1251,9 +1251,6 @@ img {
 }
 .container__team-ids:nth-child(3n+3) {
   margin-right: 0;
-}
-.container__team-ids:nth-last-child(-n+3) {
-  margin-bottom: 0;
 }
 
 .poster {
