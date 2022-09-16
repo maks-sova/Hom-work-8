@@ -1139,17 +1139,20 @@ img {
 
 .container__style-buttons {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container__buttons-skill {
   margin-right: 8px;
+  padding-bottom: 15px;
   list-style: none;
 }
 .container__buttons-skill:last-child {
   margin-right: 0;
 }
 
+/*СТИЛИ ВТОРОЙ СТРАНИЦИ*/
+/*Кнопки*/
 /*Портфолио Стулий*/
 .studio_style {
   font-family: "Roboto";
